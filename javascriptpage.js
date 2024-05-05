@@ -1,8 +1,7 @@
 <script>
   document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
-
-    // Retrieve the selected values
+    event.preventDefault(); 
+    
     const casteValue = parseInt(document.getElementById('Caste').value);
     const salaryValue = parseInt(document.getElementById('SALARY').value);
     const lookingValue = parseInt(document.getElementById('Looking').value);
@@ -11,10 +10,9 @@
     const groom2Value = parseInt(document.getElementById('Groom2').value);
     const heightValue = parseInt(document.getElementById('Height').value);
 
-    // Calculate the sum
+  
     const sum = casteValue + salaryValue + lookingValue + groomValue + brideValue + groom2Value + heightValue;
 
-    // Display the output on the website
     const outputElement = document.getElementById('output');
     if (sum < 3000000) {
       outputElement.textContent = sum + '! You have to Game Up, blud, Running around doing nothing gonna take you nowhere fr!';
