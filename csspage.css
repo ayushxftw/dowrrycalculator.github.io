@@ -75,14 +75,8 @@ input[type="submit"] {
 }
 
 <style>
-  /* Desktop styles */
 
-  /* Your existing CSS styles for desktop view */
-
-  /* Mobile styles */
   @media only screen and (max-width: 600px) {
-    /* CSS styles specific to mobile devices */
 
-    /* Adjust the layout, font sizes, padding, etc. for better mobile display */
   }
 </style>
